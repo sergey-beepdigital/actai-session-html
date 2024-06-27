@@ -1,0 +1,39 @@
+.section-hero{
+  background: url("../img/hero-bg-opt.jpg") no-repeat center;
+  background-size: cover;
+  padding: 100px 0;
+  min-height: 100vh;
+  gap: 100px;
+
+  @media screen and (max-width: 767px) {
+    padding: 50px 0;
+    gap: 50px;
+
+  }
+
+  &--heading{
+    font-size: 174px;
+    font-family: 'Gazzetta';
+    line-height: 0.7;
+    font-weight: 900;
+
+    @media screen and (max-width: 767px) {
+      font-size: 104px;
+    }
+  }
+
+  &--cta{
+    font-family: 'Gazzetta';
+    font-size: 85px;
+    font-weight: 300;
+    line-height: 0.8;
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s ease all;
+
+    &:hover{
+      color: inherit;
+      opacity: 0.8;
+    }
+  }
+}

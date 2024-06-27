@@ -1,0 +1,45 @@
+.footer{
+  background: url("../img/section-bg-opt.jpg") no-repeat top left;
+  background-size: cover;
+  padding: 73px 0;
+
+  @media screen and (max-width: 767px) {
+    padding: 40px 0 30px;
+  }
+
+  h2{
+    font-weight: 500;
+    margin-bottom: 40px;
+
+    @media screen and (max-width: 767px) {
+      margin-bottom: 34px;
+    }
+  }
+
+  h2,
+  &--address{
+    font-size: 15px;
+    line-height: 1.4;
+
+    @media screen and (max-width: 767px) {
+      font-size: 13px;
+    }
+  }
+
+  &--copyright{
+    font-size: 12px;
+    line-height: 1.4;
+
+    p{
+      margin-bottom: 10px;
+    }
+
+    svg{
+      margin-top: 20px;
+    }
+
+    @media screen and (max-width: 767px) {
+      font-size: 13px;
+    }
+  }
+}

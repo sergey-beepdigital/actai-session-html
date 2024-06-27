@@ -1,0 +1,59 @@
+.section-founders{
+  font-size: 25px;
+  line-height: 1.1;
+
+  @media screen and (max-width: 991px) {
+    font-size: 22px;
+  }
+
+  @media screen and (max-width: 767px) {
+    font-size: 16px;
+  }
+
+  strong{
+    font-weight: 700;
+  }
+
+  &--rows{
+    display: flex;
+    flex-direction: column;
+    gap: 110px;
+
+    @media screen and (max-width: 767px) {
+      gap: 50px;
+    }
+  }
+
+  img{
+    margin-bottom: 55px;
+    display: block;
+
+    @media screen and (max-width: 767px) {
+      margin-bottom: 34px;
+    }
+  }
+
+  h2{
+    font-family: Gazzetta;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 0.8;
+
+    @media screen and (max-width: 767px) {
+      font-size: 40px;
+    }
+  }
+
+  .social-profile-link{
+    color: inherit;
+    transition: 0.3s ease all;
+
+    @media screen and (max-width: 767px) {
+      font-size: 30px;
+    }
+
+    &:hover{
+      color: #C44F10;
+    }
+  }
+}

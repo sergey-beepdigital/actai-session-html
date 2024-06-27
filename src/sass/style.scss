@@ -1,0 +1,23 @@
+$theme-colors: (
+    "primary": blue,
+    "danger": #C44F10,
+    "light": #F8F7F6
+);
+
+$container-max-widths: (
+  'xxl': 1370px
+);
+
+//$white: #F8F7F6;
+//$danger: #C44F10;
+
+$body-color: #2A2E38;
+$font-family-sans-serif: 'Helvetica Neue';
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+@import "fonts/fonts";
+
+@import "common/common";
+@import "parts/parts";
+@import "sections/sections";

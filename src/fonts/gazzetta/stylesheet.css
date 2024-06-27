@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Gazzetta';
+    src: url('Gazzetta-MediumSlanted.woff2') format('woff2'),
+        url('Gazzetta-MediumSlanted.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gazzetta';
+    src: url('Gazzetta-Regular.woff2') format('woff2'),
+        url('Gazzetta-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gazzetta';
+    src: url('Gazzetta-Light.woff2') format('woff2'),
+        url('Gazzetta-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GazzettaThin';
+    src: url('Gazzetta-ThinSlanted.woff2') format('woff2'),
+        url('Gazzetta-ThinSlanted.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gazzetta';
+    src: url('Gazzetta-ExtraLight.woff2') format('woff2'),
+        url('Gazzetta-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gazzetta';
+    src: url('Gazzetta-ExtraBoldSlanted.woff2') format('woff2'),
+        url('Gazzetta-ExtraBoldSlanted.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gazzetta';
+    src: url('Gazzetta-LightSlanted.woff2') format('woff2'),
+        url('Gazzetta-LightSlanted.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gazzetta';
+    src: url('Gazzetta-Medium.woff2') format('woff2'),
+        url('Gazzetta-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gazzetta';
+    src: url('GazzettaSlanted.woff2') format('woff2'),
+        url('GazzettaSlanted.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gazzetta';
+    src: url('Gazzetta-Bold.woff2') format('woff2'),
+        url('Gazzetta-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gazzetta';
+    src: url('Gazzetta-ExtraLightSlanted.woff2') format('woff2'),
+        url('Gazzetta-ExtraLightSlanted.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gazzetta';
+    src: url('Gazzetta-Thin.woff2') format('woff2'),
+        url('Gazzetta-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gazzetta';
+    src: url('Gazzetta-ExtraBold.woff2') format('woff2'),
+        url('Gazzetta-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gazzetta';
+    src: url('Gazzetta-BoldSlanted.woff2') format('woff2'),
+        url('Gazzetta-BoldSlanted.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gazzetta';
+    src: url('Gazzetta-Black.woff2') format('woff2'),
+        url('Gazzetta-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gazzetta';
+    src: url('Gazzetta-BlackSlanted.woff2') format('woff2'),
+        url('Gazzetta-BlackSlanted.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+

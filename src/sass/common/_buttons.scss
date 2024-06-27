@@ -1,0 +1,16 @@
+.btn{
+  border-radius: 3px;
+
+  &-lg{
+    font-size: 15px;
+    padding: 1.4375rem 1.5rem;
+    line-height: 0.8;
+    font-weight: 700;
+  }
+
+  &-danger:hover{
+    border-color: $body-color;
+    background: transparent;
+    color: $body-color;
+  }
+}

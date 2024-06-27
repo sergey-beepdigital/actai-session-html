@@ -1,0 +1,67 @@
+.header-navbar{
+  background: url("../img/section-bg-opt.jpg") no-repeat top left;
+  background-size: cover;
+  padding-top: 22px;
+  padding-bottom: 22px;
+
+  &--inner{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    width: 100%;
+
+    @media screen and (min-width: 768px) {
+      margin: 0 30px;
+    }
+  }
+
+  &--cta{
+    display: inline-flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 0.8;
+    gap: 11px;
+    color: #C44F10;
+    text-decoration: none;
+
+    span:nth-child(1) {
+      position: relative;
+
+      &:after{
+        content: "";
+        background: url("../img/lets-talk-decoration.svg") no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: calc(100% + 5px);
+        left: 0;
+        height: 10px;
+        width: 0;
+      }
+    }
+
+    span:nth-child(1):after,
+    span:nth-child(2) {
+      transition: 0.3s ease all;
+    }
+
+    span:nth-child(2) {
+      @media screen and (max-width: 767px) {
+        display: none;
+      }
+    }
+
+    &:hover{
+      color: #C44F10;
+
+      span:nth-child(1):after {
+        width: 100%;
+      }
+      span:nth-child(2) {
+        transform: translateX(20px);
+        opacity: 0;
+      }
+    }
+  }
+}

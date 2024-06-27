@@ -1,0 +1,42 @@
+.service-box{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background: url("../img/body-bg.svg") repeat top left;
+  padding: 40px 20px;
+  border-radius: 7px;
+  color: $body-color;
+  align-items: center;
+  text-align: center;
+
+  h3{
+    font-family: "Gazzetta";
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 0.8;
+    margin: 0;
+    padding: 0 6rem;
+  }
+
+  &--description{
+    min-height: 156px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.3;
+  }
+
+  ul{
+    columns: 2;
+    column-gap: 48px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0 0 0 20px;
+
+    li::marker{
+      color: #C44F10;
+    }
+  }
+}
