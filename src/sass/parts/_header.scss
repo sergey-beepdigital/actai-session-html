@@ -3,6 +3,8 @@
   background-size: cover;
   padding-top: 22px;
   padding-bottom: 22px;
+  position: sticky;
+  top:0;
 
   &--inner{
     display: flex;
