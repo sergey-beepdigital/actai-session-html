@@ -47,6 +47,8 @@
   .social-profile-link{
     color: inherit;
     transition: 0.3s ease all;
+    display: inline-block;
+    margin-top: 0.3rem;
 
     @media screen and (max-width: 767px) {
       font-size: 30px;
