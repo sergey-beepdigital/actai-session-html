@@ -60,6 +60,11 @@ function fonts() {
         .pipe(gulp.dest('build/fonts/'));
 }
 
+function favicon() {
+    return gulp.src('src/favicon/**/*')
+        .pipe(gulp.dest('build/favicon/'));
+}
+
 function serve() {
     browserSync.init({
         open: true,
@@ -91,5 +96,5 @@ exports.css = css;
 exports.html = html;
 exports.js = js;
 exports.del = del;
-exports.serve = gulp.parallel(html, css, js, img, fonts, watchFiles, serve);
-exports.default = gulp.series(del, html, css, js, img, fonts);
+exports.serve = gulp.parallel(html, css, js, img, fonts, favicon, watchFiles, serve);
+exports.default = gulp.series(del, html, css, js, img, fonts, favicon);
