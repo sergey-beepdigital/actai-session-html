@@ -3,3 +3,9 @@ body {
   font-weight: 300;
   position: relative;
 }
+
+body[style*="hidden"] {
+  .header-navbar--cta{
+    visibility: hidden;
+  }
+}
