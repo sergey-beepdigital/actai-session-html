@@ -2,6 +2,7 @@ body {
   background: url("../img/body-bg.svg") repeat top left;
   font-weight: 300;
   position: relative;
+  overflow-x: hidden;
 }
 
 body[style*="hidden"] {
